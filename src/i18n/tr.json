@@ -1,0 +1,20 @@
+{
+    "navbar" : {
+        "home": "Ana Sayfa",
+        "projects": "Projeler",
+        "bio": "Hakkımda"
+    
+    },
+    "home" : {
+        "title": "Ana Sayfa",
+        "desc": "Burası ana sayfa."
+    },
+    "bio" : {
+        "title": "Hakkımda",
+        "desc": "Burası hakkımda sayfası."
+    },
+    "projects": {
+        "title": "Projeler",
+        "desc": "Burası projeler sayfası."
+    }
+}
