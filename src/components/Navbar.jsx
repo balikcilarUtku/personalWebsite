@@ -16,7 +16,7 @@ export default function Navbar() {
 
     return (
         <header style={{
-            background: '#202040',
+            background: '#1f0020',
             color:'#FFBD69',
             padding:'12px 16px',
             display:'grid',
@@ -26,7 +26,7 @@ export default function Navbar() {
             top:0,left: 0,right: 0,width: '99%',
             zindex:1000
             }}>
-        <div style={{fontWeight:'bold', display: 'flex',justifyContent: 'left',}}>
+        <div style={{fontWeight:400, display: 'flex',justifyContent: 'left',fontFamily:"Bebas-Neue,sans-serif",fontStyle:'normal'}}>
             Utku Balikcilar
         </div>
 
