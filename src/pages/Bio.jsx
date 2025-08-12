@@ -7,6 +7,7 @@ export default function Bio() {
         <div className='divabi'>
             <section className='sectionBir'>
                 <h1 className='Hh1'>{t('bio.title')}</h1>    
+                    <p style={{color: '#FFf',fontFamily:"Bebas-Neue,sans-serif",fontStyle:"normal"}} >{t('bio.desc')}</p>
             </section>
         </div>
     )

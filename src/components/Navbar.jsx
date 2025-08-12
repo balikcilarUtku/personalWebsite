@@ -26,7 +26,7 @@ export default function Navbar() {
             top:0,left: 0,right: 0,width: '99%',
             zindex:1000
             }}>
-        <div style={{fontWeight:400, display: 'flex',justifyContent: 'left',fontFamily:"Bebas-Neue,sans-serif",fontStyle:'normal'}}>
+        <div style={{fontSize: 20,fontWeight:400, display: 'flex',justifyContent: 'left',fontFamily:"Bebas-Neue,sans-serif",fontStyle:'normal'}}>
             Utku Balikcilar
         </div>
 
@@ -34,7 +34,10 @@ export default function Navbar() {
             display:'flex',
             gap:'10px',
             justifyContent: 'center',
-            transform: 'translateX(-15px)'
+            transform: 'translateX(-15px)',
+            fontWeight:400,
+            fontFamily:"Bebas-Neue,sans-serif",
+            fontStyle:"normal"
         }}>
             <NavLink to="/" end style={linkstyle}>{t('navbar.home')}</NavLink>
             <NavLink to="/projects" style={linkstyle}>{t('navbar.projects')}</NavLink>
