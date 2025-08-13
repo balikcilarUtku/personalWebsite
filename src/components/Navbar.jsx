@@ -16,7 +16,7 @@ export default function Navbar() {
 
     return (
         <header style={{
-            background: '#1f0020',
+            background: '#222831',
             color:'#FFBD69',
             padding:'12px 16px',
             display:'grid',
