@@ -1,4 +1,3 @@
-/* RepoCard.module.css - Yepyeni Tasarım */
 
 .card {
   min-width: 320px;
@@ -6,9 +5,9 @@
   height: 250px;
   border-radius: 12px;
   text-decoration: none;
-  position: relative; /* "Glow" efekti için gerekli */
-  background: #1a1b21; /* Ana arka plan rengi */
-  padding: 2px; /* Kenarlık için boşluk */
+  position: relative;
+  background: #1a1b21;
+  padding: 2px;
   transition: all 0.2s ease-in-out;
 }
 
@@ -17,7 +16,7 @@
   position: absolute;
   inset: 0;
   border-radius: 12px;
-  padding: 2px; /* Kenarlık kalınlığı */
+  padding: 2px;
   background: linear-gradient(45deg, #FFBD69, #4c3d8a, #FFBD69);
   -webkit-mask: 
      linear-gradient(#fff 0 0) content-box, 
@@ -37,19 +36,17 @@
   opacity: 1;
 }
 
-/* Kartın asıl içeriğini barındıran katman */
 .cardContent {
   width: 100%;
   height: 100%;
-  background: #1a1b21; /* Kartın iç rengi */
-  border-radius: 10px; /* Kenarlıktan biraz daha küçük */
+  background: #1a1b21;
+  border-radius: 10px;
   padding: 24px;
   box-sizing: border-box;
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
 
-/* Header, RepoName, Icon stilleri aynı kalabilir */
 .header {
   display: flex;
   align-items: center;
@@ -71,7 +68,7 @@
 
 .description {
   font-size: 0.9em;
-  color: #cdd5e0; /* Daha okunabilir bir metin rengi */
+  color: #cdd5e0;
   line-height: 1.5;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -82,17 +79,19 @@
 
 .footer {
   display: flex;
-  flex-wrap: wrap; /* Küçük ekranlarda sığmazsa alt satıra geçsin */
   align-items: center;
-  gap: 16px;
+  gap: 12px;
   font-size: 0.8em;
-  color: #8b949e; /* Daha soft bir alt bilgi rengi */
+  color: #8b949e; 
   padding-top: 10px;
-  border-top: 1px solid #30363d; /* Alt bilgiyi ayıran ince bir çizgi */
+  border-top: 1px solid #30363d;
+  min-height: 2.5em;
 }
 
 .footer span {
   display: flex;
   align-items: center;
   gap: 6px;
+  white-space: nowrap;
 }
+
