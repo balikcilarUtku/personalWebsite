@@ -9,10 +9,8 @@ export default function RepoCard({ repo }) {
       rel="noreferrer"
       className={styles.card}
     >
-      {/* Kartın içeriğini saran bir div ekliyoruz. 
-          Bu, parlayan kenarlık efektini yapmamızı sağlayacak. */}
       <div className={styles.cardContent}>
-        {/* 1. Grid Satırı: Başlık */}
+        
         <div className={styles.header}>
           <img
             src="/github-mark-white.png"
@@ -22,12 +20,10 @@ export default function RepoCard({ repo }) {
           <span className={styles.repoName}>{repo.name}</span>
         </div>
         
-        {/* 2. Grid Satırı: Açıklama */}
         <p className={styles.description}>
           {repo.description || 'Bu proje için bir açıklama bulunmuyor.'}
         </p>
 
-        {/* 3. Grid Satırı: Alt Bilgi (Yıldız sayısı eklendi) */}
         <div className={styles.footer}>
           {repo.stargazers_count > 0 && (
             <span>⭐ {repo.stargazers_count}</span>

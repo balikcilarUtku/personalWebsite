@@ -15,9 +15,13 @@
   display: none;
 }
 
-.projectsGrid > * {
-  scroll-snap-align: start;
-  flex-shrink: 0;
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+  padding: 24px;
+  width: 100%;
+  max-width: 1280px;
 }
 
 .projectsTitle {
