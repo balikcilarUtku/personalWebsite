@@ -3,7 +3,7 @@
 .card {
   min-width: 320px;
   max-width: 400px;
-  height: 250px; /* Sabit bir yükseklik vererek daha düzenli görünmelerini sağlayalım */
+  height: 250px;
   padding: 24px;
   border-radius: 12px;
   background-color: #22242a;
@@ -11,9 +11,8 @@
   text-decoration: none;
   color: #e8e8e8;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; /* İçeriği dikeyde yay */
+  display: grid;
+  grid-template-rows: auto 1fr auto; 
 }
 
 .card:hover {
@@ -44,7 +43,6 @@
   opacity: 0.85;
   margin-bottom: 16px;
   font-size: 0.9em;
-  flex-grow: 1; /* Açıklama alanının kalan boşluğu doldurmasını sağlar */
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
