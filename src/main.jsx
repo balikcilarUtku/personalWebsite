@@ -7,9 +7,7 @@ import App from './App.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <I18nProvider>
-      <BrowserRouter>
         <App />
-      </BrowserRouter>
     </I18nProvider>
   </StrictMode>
 )

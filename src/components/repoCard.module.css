@@ -1,0 +1,61 @@
+/* RepoCard.module.css */
+
+.card {
+  min-width: 320px;
+  max-width: 400px;
+  height: 250px; /* Sabit bir yükseklik vererek daha düzenli görünmelerini sağlayalım */
+  padding: 24px;
+  border-radius: 12px;
+  background-color: #22242a;
+  border: 1px solid #3c3f49;
+  text-decoration: none;
+  color: #e8e8e8;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* İçeriği dikeyde yay */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.repoName {
+  font-size: 1.5em;
+  font-weight: 400;
+  font-family: "Bebas Neue", sans-serif;
+  color: #FFBD69;
+}
+
+.description {
+  opacity: 0.85;
+  margin-bottom: 16px;
+  font-size: 0.9em;
+  flex-grow: 1; /* Açıklama alanının kalan boşluğu doldurmasını sağlar */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.footer {
+  display: flex;
+  gap: 16px;
+  font-size: 0.8em;
+  opacity: 0.9;
+  align-items: center;
+}
