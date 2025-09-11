@@ -1,3 +1,4 @@
+// src/components/RepoCard.jsx
 import styles from './RepoCard.module.css';
 
 export default function RepoCard({ repo }) {
@@ -8,22 +9,32 @@ export default function RepoCard({ repo }) {
       rel="noreferrer"
       className={styles.card}
     >
-      <div className={styles.header}>
-        <img
-          src="/github-mark-white.png"
-          alt="GitHub"
-          className={styles.icon}
-        />
-        <span className={styles.repoName}>{repo.name}</span>
-      </div>
-      
-      <p className={styles.description}>
-        {repo.description || ''}
-      </p>
+      {/* Kartın içeriğini saran bir div ekliyoruz. 
+          Bu, parlayan kenarlık efektini yapmamızı sağlayacak. */}
+      <div className={styles.cardContent}>
+        {/* 1. Grid Satırı: Başlık */}
+        <div className={styles.header}>
+          <img
+            src="/github-mark-white.png"
+            alt="GitHub"
+            className={styles.icon}
+          />
+          <span className={styles.repoName}>{repo.name}</span>
+        </div>
+        
+        {/* 2. Grid Satırı: Açıklama */}
+        <p className={styles.description}>
+          {repo.description || 'Bu proje için bir açıklama bulunmuyor.'}
+        </p>
 
-      <div className={styles.footer}>
-        {repo.language && <span>💡 {repo.language}</span>}
-        <span>🔄 {new Date(repo.pushed_at).toLocaleDateString()}</span>
+        {/* 3. Grid Satırı: Alt Bilgi (Yıldız sayısı eklendi) */}
+        <div className={styles.footer}>
+          {repo.stargazers_count > 0 && (
+            <span>⭐ {repo.stargazers_count}</span>
+          )}
+          {repo.language && <span>💻 {repo.language}</span>}
+          <span>🔄 {new Date(repo.pushed_at).toLocaleDateString()}</span>
+        </div>
       </div>
     </a>
   );
