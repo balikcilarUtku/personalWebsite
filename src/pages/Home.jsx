@@ -1,17 +1,14 @@
-import { useI18n } from '../i18n'
-import './Home.css'
+import { useI18n } from '../i18n';
+import styles from './Home.module.css';
 
 export default function Home() {
-    const { t } = useI18n()
-    return (
-        <div className='divabi'>
-            <section className='sectionBir'>
-                <h1 className='Hh1'>{t('home.title')}</h1>
-                    <p>
-                        {t('home.desc')}
-                    </p>
-            </section>
-        </div>    
-    )
-
+  const { t } = useI18n();
+  return (
+    <div className={styles.pageContainer}>
+      <h1 className={styles.title}>{t('home.title')}</h1>
+      <p className={styles.description}>
+        {t('home.desc')}
+      </p>
+    </div>
+  );
 }

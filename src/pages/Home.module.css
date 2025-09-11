@@ -1,0 +1,43 @@
+.Hh1 {
+  color:#FFBD69;
+  font-size: 5em;
+  line-height: 1.1;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sectionBir {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start; 
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.title {
+  color:#FFBD69;
+  font-size: 5em;
+  line-height: 1.1;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+}
+
+.description {
+  color: #EEEEEE;
+  font-size: 1.2rem;
+  text-align: center;
+  max-width: 600px;
+}
+
+.divabi {
+  display: block;
+  padding: 20px;
+}
