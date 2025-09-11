@@ -2,90 +2,59 @@
 .card {
   min-width: 320px;
   max-width: 400px;
-  height: 250px;
+  
   border-radius: 12px;
   text-decoration: none;
-  position: relative;
   background: #1a1b21;
-  padding: 2px;
+  border: 1px solid #30363d;
   transition: all 0.2s ease-in-out;
-}
-
-.card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 12px;
-  padding: 2px;
-  background: linear-gradient(45deg, #FFBD69, #4c3d8a, #FFBD69);
-  -webkit-mask: 
-     linear-gradient(#fff 0 0) content-box, 
-     linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-          mask-composite: exclude;
-  opacity: 0.5;
-  transition: opacity 0.2s ease-in-out;
+  
+  display: flex;
+  flex-direction: column;
 }
 
 .card:hover {
-  transform: translateY(-5px) scale(1.02);
+  transform: translateY(-5px);
+  border-color: #FFBD69;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-}
-
-.card:hover::before {
-  opacity: 1;
-}
-
-.cardContent {
-  width: 100%;
-  height: 100%;
-  background: #1a1b21;
-  border-radius: 10px;
-  padding: 24px;
-  box-sizing: border-box;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
 }
 
 .header {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 10px;
+  padding: 20px 20px 0 20px;
 }
 
 .icon {
   width: 24px;
   height: 24px;
+  flex-shrink: 0;
 }
 
 .repoName {
   font-size: 1.5em;
-  font-weight: 400;
   font-family: "Bebas Neue", sans-serif;
   color: #FFBD69;
+  word-break: break-word; 
 }
 
 .description {
   font-size: 0.9em;
   color: #cdd5e0;
   line-height: 1.5;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
+  padding: 16px 20px;
+  flex-grow: 1;
 }
 
 .footer {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 16px;
   font-size: 0.8em;
-  color: #8b949e; 
-  padding-top: 10px;
+  color: #8b949e;
+  padding: 16px 20px;
   border-top: 1px solid #30363d;
-  min-height: 2.5em;
 }
 
 .footer span {
@@ -94,4 +63,3 @@
   gap: 6px;
   white-space: nowrap;
 }
-
