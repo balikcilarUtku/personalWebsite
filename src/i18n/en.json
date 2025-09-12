@@ -6,8 +6,10 @@
     "bio": "Bio"
   },
   "home": {
-    "title": "Home",
+    "title": "Utku Balikcilar",
     "subtitle": "Software Developer & Software Support Specialist",
+    "proje": "See my Projects",
+    "iletisim": "Contact Me",
     "desc": ""
   },
   "bio": {

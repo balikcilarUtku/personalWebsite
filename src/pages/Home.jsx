@@ -17,9 +17,9 @@ export default function Home() {
           smooth={true} 
           offset={-70} 
           duration={500} 
-          className={`${styles.button} ${styles.ctaPrimary}`}
+          className={`${styles.button} ${styles.ctaSecondary}`}
         >
-          Projelerimi Gör
+          {t('home.proje')}
         </Link>
         <Link 
           to="bio" 
@@ -29,7 +29,7 @@ export default function Home() {
           duration={500} 
           className={`${styles.button} ${styles.ctaSecondary}`}
         >
-          İletişime Geç
+          {t('home.iletisim')}
         </Link>
       </div>
       <div className={styles.socialLinks}>
