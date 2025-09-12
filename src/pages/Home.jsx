@@ -43,9 +43,9 @@ export default function Home() {
       <div className={styles.techStack}>
         <p>Teknoloji Bilgim</p>
         <div className={styles.techIcons}>
+          <SiPython />
           <SiJavascript />
           <SiReact />
-          <SiPython />
         </div>
       </div>
 
