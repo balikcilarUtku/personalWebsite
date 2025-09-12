@@ -36,12 +36,11 @@ export default function Home() {
         <a href="https://github.com/balikcilarUtku" target="_blank" rel="noreferrer" className={styles.socialIcon}>
           <FaGithub />
         </a>
-        <a href="https://www.linkedin.com/in/utku-balıkçılar-5a8289297/" target="_blank" rel="noreferrer" className={styles.socialIcon}>
+        <a href="https://www.linkedin.com/in/utku-bal%C4%B1k%C3%A7%C4%B1lar-76600b268/" target="_blank" rel="noreferrer" className={styles.socialIcon}>
           <FaLinkedin />
         </a>
       </div>
       <div className={styles.techStack}>
-        <p>Teknoloji Bilgim</p>
         <div className={styles.techIcons}>
           <SiPython />
           <SiJavascript />
