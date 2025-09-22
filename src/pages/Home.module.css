@@ -101,6 +101,7 @@
 
 .techIcons {
   display: flex;
-  gap: 20px;
+  padding: 20px 0;
+  gap: 40px;
   font-size: 1.8rem;
 }
