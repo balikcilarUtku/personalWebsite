@@ -1,5 +1,4 @@
 import { useI18n } from '../i18n';
-import avatar from '../media/aseprite.png';
 import styles from './Bio.module.css';
 
 export default function Bio() {
