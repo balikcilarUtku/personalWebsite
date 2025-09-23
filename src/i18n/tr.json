@@ -6,7 +6,10 @@
     
     },
     "home" : {
-        "title": "Ana  Sayfa ",
+        "title": "Utku Balıkçılar ",
+        "subtitle": "Yazılım Geliştirici & Yazılım Destek Uzmanı",
+        "proje": "Projelerimi Gör",
+        "iletisim": "İletişime Geç",
         "desc": "   "
     },
     "bio" : {

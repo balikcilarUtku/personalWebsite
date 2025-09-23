@@ -1,0 +1,9 @@
+
+.section-container {
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px 20px 20px 20px; /* Üstten navbar boşluğu, kenarlardan boşluk */
+  box-sizing: border-box;
+}

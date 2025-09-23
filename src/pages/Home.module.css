@@ -1,0 +1,107 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 80vh;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  color:#FFBD69;
+  font-size: 5em;
+  line-height: 1.1;
+  font-family: "Bebas Neue", sans-serif;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #cdd5e0;
+  font-family: "Bebas Neue", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.button {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.ctaPrimary {
+  background-color: #FFBD69;
+  color: #222831;
+  border: 2px solid #FFBD69;
+}
+
+.ctaPrimary:hover {
+  background-color: #ffca8a;
+  transform: translateY(-3px);
+}
+
+.ctaSecondary {
+  background-color: transparent;
+  color: #FFBD69;
+  border: 2px solid #FFBD69;
+}
+
+.ctaSecondary:hover {
+  background-color: #FFBD69;
+  color: #222831;
+  transform: translateY(-3px);
+}
+
+.socialLinks {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.socialIcon {
+  color: #cdd5e0;
+  font-size: 2rem; /* İkon boyutu */
+  transition: all 0.2s ease-in-out;
+}
+
+.socialIcon:hover {
+  color: #FFBD69;
+  transform: scale(1.2);
+}
+
+.techStack {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #cdd5e0;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+}
+
+.techStack p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.techIcons {
+  display: flex;
+  padding: 20px 0;
+  gap: 40px;
+  font-size: 1.8rem;
+}

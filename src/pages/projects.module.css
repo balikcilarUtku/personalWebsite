@@ -1,0 +1,41 @@
+.projectsGrid {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 24px;
+  padding: 24px;
+  padding-bottom: 40px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.projectsGrid::-webkit-scrollbar {
+  display: none;
+}
+
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+  padding: 24px;
+  width: 100%;
+  max-width: 1280px;
+}
+
+.projectsTitle {
+  color:#FFBD69;
+  font-size: 5em;
+  line-height: 1.1;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.projectsSectionHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 20px; 
+  width: 100%;
+}
