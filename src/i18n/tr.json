@@ -10,6 +10,10 @@
         "subtitle": "Yazılım Geliştirici & Yazılım Destek Uzmanı",
         "proje": "Projelerimi Gör",
         "iletisim": "İletişime Geç",
+        "lang": "Programlama Dilleri",
+        "frontend": "Frontend Teknolojileri",
+        "backend": "Backend Teknolojileri",
+        "database": "Veritabanı Teknolojileri",
         "desc": "   "
     },
     "bio" : {

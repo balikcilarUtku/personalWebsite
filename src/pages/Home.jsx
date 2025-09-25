@@ -40,10 +40,16 @@ export default function Home() {
           <FaLinkedin />
         </a>
       </div>
+      <h1 className={styles.subtitle}>{t('home.lang')}</h1>
       <div className={styles.techStack}>
         <div className={styles.techIcons}>
           <SiPython />
           <SiJavascript />
+        </div>
+      </div>
+      <h1 className={styles.subtitle}>{t('home.frontend')}</h1>
+      <div className={styles.techStack}>
+        <div className={styles.techIcons}>
           <SiReact />
         </div>
       </div>
