@@ -18,7 +18,8 @@
   },
   "bio": {
     "title": "About Me",
-    "desc": ""
+    "desc": "",
+    "cv": "Curriculum Vitae"
   },
   "projects": {
     "title": "Projects",

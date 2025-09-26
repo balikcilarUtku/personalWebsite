@@ -6,7 +6,16 @@ export default function Bio() {
   return (
     <div className={styles.pageContainer}>
       <h1 className={styles.title}>{t('bio.title')}</h1>
-      <p className={styles.description}>{t('bio.desc')}</p>
+              <Link 
+                to="projects" 
+                spy={true} 
+                smooth={true} 
+                offset={-70} 
+                duration={500} 
+                className={`${styles.button} ${styles.ctaSecondary}`}
+              >
+                {t('bio.cv')}
+              </Link>
     </div>
   );
 }
