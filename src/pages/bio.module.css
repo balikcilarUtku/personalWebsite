@@ -24,3 +24,21 @@
   line-height: 1.6;
   font-size: 1.1rem;
 }
+
+.button {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.ctaSecondary {
+  background-color: transparent;
+  color: #FFBD69;
+  border: 2px solid #FFBD69;
+}
