@@ -1,4 +1,3 @@
-// Navbar.jsx
 import { Link } from 'react-scroll' 
 import { useI18n } from '../i18n'
 import LanguageSwitcher from './LanguageSwitcher'

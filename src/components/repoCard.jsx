@@ -1,4 +1,3 @@
-// src/components/RepoCard.jsx
 import styles from './RepoCard.module.css';
 
 export default function RepoCard({ repo }) {
