@@ -19,7 +19,8 @@
     "bio" : {
         "title": "Hakkımda",
         "desc": "",
-        "cv" : "Özgeçmiş"
+        "cv" : "Özgeçmiş",
+        "iletisim": "İletişim"
     },
     "projects": {
         "title": "Projeler",

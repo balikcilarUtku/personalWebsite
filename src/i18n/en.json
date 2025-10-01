@@ -19,7 +19,8 @@
   "bio": {
     "title": "About Me",
     "desc": "",
-    "cv": "Curriculum Vitae"
+    "cv": "Curriculum Vitae",
+    "iletisim": "Contact"
   },
   "projects": {
     "title": "Projects",
