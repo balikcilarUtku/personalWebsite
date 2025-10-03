@@ -1,0 +1,16 @@
+.socialLinks {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.socialIcon {
+  color: #cdd5e0;
+  font-size: 2rem; /* İkon boyutu */
+  transition: all 0.2s ease-in-out;
+}
+
+.socialIcon:hover {
+  color: #FFBD69;
+  transform: scale(1.2);
+}
