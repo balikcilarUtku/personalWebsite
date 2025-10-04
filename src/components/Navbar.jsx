@@ -16,6 +16,7 @@ export default function Navbar() {
         <Link to="home" spy={true} smooth={true} offset={-70} duration={500} className="nav-link" activeClass="active">{t('navbar.home')}</Link>
         <Link to="projects" spy={true} smooth={true} offset={-70} duration={500} className="nav-link" activeClass="active">{t('navbar.projects')}</Link>
         <Link to="bio" spy={true} smooth={true} offset={-70} duration={500} className="nav-link" activeClass="active">{t('navbar.bio')}</Link>
+        <Link to="iletisim" spy={true} smooth={true} offset={-70} duration={500} className="nav-link" activeClass="active">{t('navbar.iletisim')}</Link>
       </nav>
 
       <div className="language-switcher-container">

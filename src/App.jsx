@@ -21,6 +21,9 @@ export default function App() {
         <section id="bio" className="section-container">
           <Bio />
         </section>
+        <section id="iletisim" className="section-container">
+          <Iletisim />
+        </section>
       </main>
     </>
   )

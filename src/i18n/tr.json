@@ -2,7 +2,8 @@
     "navbar" : {
         "home": "Ana Sayfa",
         "projects": "Projeler",
-        "bio": "Hakkımda"
+        "bio": "Hakkımda",
+        "iletisim": "İletişim"
     
     },
     "home" : {
