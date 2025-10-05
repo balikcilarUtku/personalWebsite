@@ -26,5 +26,8 @@
     "projects": {
         "title": "Projeler",
         "desc": "Burası projeler sayfası."
+    },
+    "iletisim": {
+        "title": "İletişim"
     }
 }

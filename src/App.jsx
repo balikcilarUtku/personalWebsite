@@ -3,12 +3,12 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Bio from './pages/Bio'
+import Iletisim from './pages/iletisim'
 import './app.css'
 
 export default function App() {
   return (
     <>
-      {/* Navbar hala en üstte sabit kalacak */}
       <Navbar />
 
       <main>

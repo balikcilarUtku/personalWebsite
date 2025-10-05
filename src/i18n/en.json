@@ -27,5 +27,8 @@
   "projects": {
     "title": "Projects",
     "desc":"This is the projects page"
-  }
+  },
+      "iletisim": {
+        "title": "Contact"
+    }
 }

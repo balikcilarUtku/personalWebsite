@@ -1,7 +1,6 @@
 import { useI18n } from '../i18n';
 import styles from './Home.module.css';
 import { Link } from 'react-scroll';
-import{ FaGithub, FaLinkedin } from 'react-icons/fa';
 import { SiPython, SiJavascript, SiReact } from 'react-icons/si';
 
 export default function Home() {
@@ -31,14 +30,6 @@ export default function Home() {
         >
           {t('home.iletisim')}
         </Link>
-      </div>
-      <div className={styles.socialLinks}>
-        <a href="https://github.com/balikcilarUtku" target="_blank" rel="noreferrer" className={styles.socialIcon}>
-          <FaGithub />
-        </a>
-        <a href="https://www.linkedin.com/in/utku-bal%C4%B1k%C3%A7%C4%B1lar-76600b268/" target="_blank" rel="noreferrer" className={styles.socialIcon}>
-          <FaLinkedin />
-        </a>
       </div>
       <h1 className={styles.subtitle}>{t('home.lang')}</h1>
       <div className={styles.techStack}>
