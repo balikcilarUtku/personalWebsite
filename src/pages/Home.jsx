@@ -21,7 +21,7 @@ export default function Home() {
           {t('home.proje')}
         </Link>
         <Link 
-          to="bio" 
+          to="iletisim" 
           spy={true} 
           smooth={true} 
           offset={-70} 

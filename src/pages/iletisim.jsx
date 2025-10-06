@@ -1,7 +1,6 @@
 import { useI18n } from '../i18n';
 import styles from './iletisim.module.css';
 import { Link } from 'react-scroll';
-import{ FaGithub, FaLinkedin } from 'react-icons/fa';
 
 
 
@@ -10,14 +9,6 @@ export default function Home() {
   return (
     <div className={styles.pageContainer}>
       <h1 className={styles.title}>{t('iletisim.title')}</h1>
-    <div className={styles.socialLinks}>
-        <a href="https://github.com/balikcilarUtku" target="_blank" rel="noreferrer" className={styles.socialIcon}>
-          <FaGithub />
-        </a>
-        <a href="https://www.linkedin.com/in/utku-bal%C4%B1k%C3%A7%C4%B1lar-76600b268/" target="_blank" rel="noreferrer" className={styles.socialIcon}>
-          <FaLinkedin />
-        </a>
-      </div>
     </div>
   );
 }
