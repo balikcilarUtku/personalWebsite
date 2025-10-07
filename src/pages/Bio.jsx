@@ -9,6 +9,7 @@ export default function Bio() {
   return (
     <div className={styles.pageContainer}>
       <h1 className={styles.title}>{t('bio.title')}</h1>
+      <div className={styles.ctaButtons}>
               <Link 
                 to="iletisim"
                 spy={true} 
@@ -29,6 +30,8 @@ export default function Bio() {
               >
                 {t('bio.cv')}
               </Link>
+              </div>
+              
               <div className={styles.socialLinks}>
         <a href="https://github.com/balikcilarUtku" target="_blank" rel="noreferrer" className={styles.socialIcon}>
           <FaGithub />

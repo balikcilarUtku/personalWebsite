@@ -43,8 +43,27 @@
   margin-bottom: 40px;
 }
 
+.ctaSecondary:hover {
+  background-color: #FFBD69;
+  color: #222831;
+  transform: translateY(-3px);
+}
+
+
 .ctaSecondary {
   background-color: transparent;
   color: #FFBD69;
   border: 2px solid #FFBD69;
+}
+
+.socialIcon {
+  color: #cdd5e0;
+  font-size: 3rem; /* İkon boyutu */
+  transition: all 0.2s ease-in-out;
+}
+
+.socialIcon:hover {
+  color: #FFBD69;
+  transform: scale(1.2);
+  transform: translateY(-3px);
 }
