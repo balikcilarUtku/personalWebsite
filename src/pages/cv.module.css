@@ -8,3 +8,19 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.title {
+  color:#FFBD69;
+  font-size: 5em;
+  line-height: 1.1;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+}

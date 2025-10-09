@@ -30,5 +30,8 @@
   },
       "iletisim": {
         "title": "Contact"
+    },
+        "cv": {
+            "title": "Curriculum Vitae"
+        }
     }
-}

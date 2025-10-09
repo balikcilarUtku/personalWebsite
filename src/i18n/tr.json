@@ -29,5 +29,9 @@
     },
     "iletisim": {
         "title": "İletişim"
+    },
+
+    "cv": {
+        "title": "Özgeçmiş"
     }
 }
