@@ -3,7 +3,8 @@
         "home": "Ana Sayfa",
         "projects": "Projeler",
         "bio": "Hakkımda",
-        "iletisim": "İletişim"
+        "iletisim": "İletişim",
+        "cv": "Özgeçmiş"
     
     },
     "home" : {
