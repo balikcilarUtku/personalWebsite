@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Bio from './pages/Bio'
 import Iletisim from './pages/iletisim'
+import cv from './pages/cv'
 import './app.css'
 
 export default function App() {
@@ -23,6 +24,9 @@ export default function App() {
         </section>
         <section id="iletisim" className="section-container">
           <Iletisim />
+        </section>
+        <section id="cv" className="section-container">
+          <cv />
         </section>
       </main>
     </>
