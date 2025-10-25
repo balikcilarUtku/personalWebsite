@@ -9,4 +9,4 @@ export default function Home() {
       <h1 className={styles.title}>{t('cv.title')}</h1>
     </div>
   );
-}
+} 
